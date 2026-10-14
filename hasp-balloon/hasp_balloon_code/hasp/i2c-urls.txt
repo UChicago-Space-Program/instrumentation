@@ -1,0 +1,2 @@
+http://deb.debian.org/debian/pool/main/i/i2c-tools/libi2c0_4.4-2_arm64.deb
+http://deb.debian.org/debian/pool/main/i/i2c-tools/i2c-tools_4.4-2_arm64.deb
