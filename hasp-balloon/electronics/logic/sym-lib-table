@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "MAX3110E") (type "KiCad") (uri "${KIPRJMOD}/lib/MAX3110E.kicad_sym") (options "") (descr "UltraLibrarian MAX3110EEWI symbol (pins checked against datasheet 19-1494 Rev 0); V+/V- set to passive"))
+)

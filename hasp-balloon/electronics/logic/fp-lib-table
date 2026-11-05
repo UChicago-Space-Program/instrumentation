@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "MAX3110E") (type "KiCad") (uri "${KIPRJMOD}/lib/MAX3110E.pretty") (options "") (descr "UltraLibrarian footprints for MAX3110EEWI, Maxim 21-0042B 28-pin wide SO"))
+)
