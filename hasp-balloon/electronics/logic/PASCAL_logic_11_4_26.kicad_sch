@@ -4,9 +4,16 @@
 	(generator_version "10.0")
 	(uuid "bc7eb18d-b244-4f71-b29b-e7ea904a5692")
 	(paper "A4")
+	(title_block
+		(title "PASCAL 2027 Logic Board")
+		(date "2026-11-07")
+		(rev "A (draft)")
+		(company "UChicago Space Program")
+		(comment 1 "Root: sheet overview")
+	)
 	(lib_symbols)
 	(sheet
-		(at 116.84 19.05)
+		(at 132.08 19.05)
 		(size 48.26 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +29,7 @@
 		)
 		(uuid "5ecf7472-e5f0-4b9b-824b-fb256b52deda")
 		(property "Sheetname" "RTD"
-			(at 116.84 18.3384 0)
+			(at 132.08 18.3384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +40,7 @@
 			)
 		)
 		(property "Sheetfile" "rtd.kicad_sch"
-			(at 116.84 52.6546 0)
+			(at 132.08 52.6546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52,7 +59,7 @@
 		)
 	)
 	(sheet
-		(at 67.31 55.88)
+		(at 74.93 68.58)
 		(size 46.99 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -68,7 +75,7 @@
 		)
 		(uuid "b4f2b619-3377-4b52-b590-11021fef8d63")
 		(property "Sheetname" "Interfaces"
-			(at 67.31 55.1684 0)
+			(at 74.93 67.8684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -79,7 +86,7 @@
 			)
 		)
 		(property "Sheetfile" "interfaces.kicad_sch"
-			(at 67.31 84.4046 0)
+			(at 74.93 97.1046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -98,7 +105,7 @@
 		)
 	)
 	(sheet
-		(at 21.59 55.88)
+		(at 21.59 68.58)
 		(size 43.18 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -114,7 +121,7 @@
 		)
 		(uuid "ca41962a-5b65-4df1-a77f-ec462730b064")
 		(property "Sheetname" "Sensors"
-			(at 21.59 55.1684 0)
+			(at 21.59 67.8684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -125,7 +132,7 @@
 			)
 		)
 		(property "Sheetfile" "sensors.kicad_sch"
-			(at 21.59 84.4046 0)
+			(at 21.59 97.1046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -144,7 +151,7 @@
 		)
 	)
 	(sheet
-		(at 67.31 19.05)
+		(at 74.93 19.05)
 		(size 46.99 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -160,7 +167,7 @@
 		)
 		(uuid "ee700c51-9a33-4f2b-951d-9a9c3e65576b")
 		(property "Sheetname" "Comms"
-			(at 67.31 18.3384 0)
+			(at 74.93 18.3384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -171,7 +178,7 @@
 			)
 		)
 		(property "Sheetfile" "comms.kicad_sch"
-			(at 67.31 52.6546 0)
+			(at 74.93 52.6546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
