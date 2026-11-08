@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "PASCAL 2027 Logic Board")
-		(date "2026-11-07")
+		(date "2026-11-08")
 		(rev "A (draft)")
 		(company "UChicago Space Program")
 		(comment 1 "Computer: Raspberry Pi 5 and pin allocations")
@@ -1263,9 +1263,9 @@
 		)
 		(uuid "5d5cb43e-996f-42f8-858f-023be9b2422d")
 	)
-	(text "Spare GPIO: 6, 7, 16, 19, 20, 25, 26 (header pins 31, 26, 36, 35, 38, 22, 37).\nGPIO 19 is a hardware-PWM pin."
+	(text "Spare GPIO: 7, 16, 19, 20, 25, 26 (header pins 26, 36, 35, 38, 22, 37).\nGPIO 19 is a hardware-PWM pin.\nUART0 (GPIO 14/15) = HASP serial; UART2 (GPIO 4/5, dtoverlay=uart2-pi5) = POPS."
 		(exclude_from_sim no)
-		(at 81.28 128.27 0)
+		(at 81.28 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1289,10 +1289,6 @@
 	(no_connect
 		(at 106.68 99.06)
 		(uuid "67f96cdf-a59c-4354-910f-ff1d5fced4da")
-	)
-	(no_connect
-		(at 172.72 86.36)
-		(uuid "6b6bc26d-e178-47b6-bf5b-fc05d6596aad")
 	)
 	(no_connect
 		(at 106.68 81.28)
@@ -1402,7 +1398,7 @@
 			)
 		)
 	)
-	(global_label "RTD1_CS"
+	(global_label "POPS_UART_RX"
 		(shape input)
 		(at 172.72 83.82 0)
 		(fields_autoplaced yes)
@@ -1594,7 +1590,7 @@
 			)
 		)
 	)
-	(global_label "PUMP_PWR_EN"
+	(global_label "POPS_UART_TX"
 		(shape input)
 		(at 172.72 81.28 0)
 		(fields_autoplaced yes)
@@ -1618,7 +1614,7 @@
 			)
 		)
 	)
-	(global_label "POPS_CS"
+	(global_label "PUMP_PWR_EN"
 		(shape input)
 		(at 106.68 104.14 180)
 		(fields_autoplaced yes)
@@ -2214,6 +2210,30 @@
 					(reference "#PWR0202")
 					(unit 1)
 				)
+			)
+		)
+	)
+	(global_label "RTD1_CS"
+		(shape input)
+		(at 172.72 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e34d953d-83e6-4174-818f-5aaa79d23214")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.2733 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
